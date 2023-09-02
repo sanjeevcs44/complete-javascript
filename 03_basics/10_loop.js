@@ -1727,3 +1727,13 @@ const filteredUsers = users.filter((user) => {
 });
 
 console.log(filteredUsers);
+
+// if you want to convert node list or HTML collection in the form of array
+//then we have to use Arrya.from(htmlcolletion)
+// then we can use foreach and other array functions
+//inner HTML will return html with tags
+
+// title.innerText;   // if you provide display none text will not display
+// ("Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, ad!");
+// title.textContent;  // but text content will display full element
+// ("\n        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, ad!text test\n      ");

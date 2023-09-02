@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM learning</title>
+    <style>
+      .bg-black {
+        background-color: #e7e7e7;
+        color: #727272;
+      }
+    </style>
+  </head>
+  <body class="bg-black">
+    <div>
+      <h1 class="heading">Dom learning on chia or code</h1>
+      <p id="title">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, ad!<span
+          style="display: none"
+          >text test</span
+        >
+      </p>
+      <h2>Lorem ipsum dolor sit.</h2>
+      <h2>Lorem ipsum dolor sit.</h2>
+      <h2>Lorem ipsum dolor sit.</h2>
+      <h2>Lorem ipsum dolor sit.</h2>
+
+      <ul>
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+      </ul>
+    </div>
+  </body>
+</html>
+
+<!-- Live reload enabled.
+document.getElementById("title")
+<h1 class=​"heading" id=​"title">​Dom learning on chia or code​</h1>​
+document.getElementById("title").id
+'title'
+document.getElementById("title").cl
+undefined
+document.getElementById("title").className
+'heading' -->
+
+<!-- document.getElementById('title').getAttribute('class');
+'heading'
+document.getElementById('title').getAttribute('id');
+'title'
+document.getElementById('title').setAttribute('class','test');
+undefined
+const title = document.getElementById('title');
+undefined
+title
+<h1 class=​"test" id=​"title">​Dom learning on chia or code​</h1>​
+title.style.backgroundColo
+undefined
+title.style.backgroundColor="green"
+'green'
+title.style.paddding="15px";
+'15px'
+title
+<h1 class=​"test" id=​"title" style=​"background-color:​ green;​">​Dom learning on chia or code​</h1>​
+title.style.padding="15px";
+'15px'
+title
+<h1 class=​"test" id=​"title" style=​"background-color:​ green;​ padding:​ 15px;​">​Dom learning on chia or code​</h1>​
+title.style.borderRadius = "15px"
+'15px' -->
+
+<!-- //innerText 
+    innerHTML - return tag also 
+//textContent -->
