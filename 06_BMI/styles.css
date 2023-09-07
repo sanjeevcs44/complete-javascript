@@ -17,10 +17,3 @@
 #blue {
   background-color: blue;
 }
-
-#colorBox {
-  width: 200px;
-  height: 200px;
-  border: 1px solid #333;
-  background-color: gray;
-}
